@@ -41,7 +41,12 @@
 			<key>DropOem</key>
 			<false/>
 			<key>Generate</key>
-			<false/>
+			<dict>
+				<key>CStates</key>
+				<false/>
+				<key>PStates</key>
+				<false/>
+			</dict>
 		</dict>
 		<key>smartUPS</key>
 		<true/>
@@ -70,7 +75,7 @@
 		<key>QPI</key>
 		<integer>100</integer>
 		<key>Type</key>
-		<string>0x0a02</string>
+		<string>0x0a01</string>
 		<key>UseARTFrequency</key>
 		<false/>
 	</dict>
@@ -118,8 +123,6 @@
 			<key>Speed</key>
 			<integer>8</integer>
 		</dict>
-		<key>Scan</key>
-		<true/>
 		<key>ScreenResolution</key>
 		<string>1920x1200</string>
 		<key>Theme</key>
@@ -128,20 +131,27 @@
 	<key>Graphics</key>
 	<dict>
 		<key>Inject</key>
-		<false/>
+		<dict>
+			<key>ATI</key>
+			<false/>
+			<key>Intel</key>
+			<false/>
+			<key>NVidia</key>
+			<false/>
+		</dict>
 		<key>NvidiaSingle</key>
 		<false/>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
-		<key>AppleRTC</key>
+		<key>AppleIntelCPUPM</key>
 		<false/>
-		<key>AsusAICPUPM</key>
+		<key>AppleRTC</key>
 		<false/>
 		<key>Debug</key>
 		<false/>
 		<key>FakeCPUID</key>
-		<string>0x040674</string>
+		<string>0x0306F2</string>
 		<key>KernelCpu</key>
 		<false/>
 		<key>KernelHaswellE</key>
