@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Clover.Theme</key>
+	<data>
+	cmFuZG9t
+	</data>
 	<key>EFILoginHiDPI</key>
 	<data>
 	AAAAAA==
@@ -41,7 +45,7 @@
 	</data>
 	<key>fakesmc-key-#KEY-ui32</key>
 	<data>
-	AAAAAA==
+	AAAAEA==
 	</data>
 	<key>fakesmc-key-$Adr-ui32</key>
 	<data>
@@ -113,7 +117,7 @@
 	</data>
 	<key>nvda_drv</key>
 	<data>
-	MQ==
+	MQA=
 	</data>
 	<key>prev-lang:kbd</key>
 	<data>
