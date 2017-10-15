@@ -237,9 +237,7 @@
 	<key>KernelAndKextPatches</key>
 	<dict>
 		<key>AppleIntelCPUPM</key>
-		<false/>
-		<key>AppleRTC</key>
-		<false/>
+		<true/>
 		<key>Debug</key>
 		<false/>
 		<key>FakeCPUID</key>
@@ -258,7 +256,7 @@
 				<key>Comment</key>
 				<string>xcpm_cpuid_set_info © Pike R. Alpha</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				D7bEg8Dpg/hH
