@@ -347,44 +347,53 @@
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
+		<key>ROM</key>
+		<string>UseMacAddr0</string>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>06/12/13</string>
+		<string>08/08/2017</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MP61.88Z.0116.B04.1312061508</string>
+		<string>MP61.88Z.0120.B00.1708080652</string>
 		<key>Board-ID</key>
 		<string>Mac-F60DEB81FF30ACF6</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
+		<key>BoardSerialNumber</key>
+		<string>F5K320303QXDM67AD</string>
 		<key>BoardType</key>
 		<integer>11</integer>
+		<key>BoardVersion</key>
+		<string>MacPro6,1</string>
 		<key>ChassisAssetTag</key>
 		<string>Pro-Enclosure</string>
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
-		<string>06</string>
+		<string>0x02</string>
 		<key>Family</key>
-		<string>Mac Pro</string>
+		<string>MacPro</string>
+		<key>FirmwareFeatures</key>
+		<string>0xE80FE136</string>
+		<key>FirmwareFeaturesMask</key>
+		<string>0xFF1FFF3F</string>
+		<key>LocationInChassis</key>
+		<string>Part Component</string>
 		<key>Manufacturer</key>
 		<string>Apple Inc.</string>
-		<key>Memory</key>
-		<dict>
-			<key>Channels</key>
-			<integer>4</integer>
-			<key>SlotCount</key>
-			<integer>8</integer>
-		</dict>
+		<key>Mobile</key>
+		<false/>
+		<key>PlatformFeature</key>
+		<string>0x04</string>
 		<key>ProductName</key>
 		<string>MacPro6,1</string>
 		<key>SerialNumber</key>
-		<string>C02LCW72F693</string>
-		<key>Trust</key>
-		<true/>
+		<string>F5KKR1LBF9VM</string>
+		<key>SmUUID</key>
+		<string>6621A609-F4E7-4CF5-A204-C0C214B2C638</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
