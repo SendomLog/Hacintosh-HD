@@ -18,6 +18,14 @@
 	<data>
 	AQ==
 	</data>
+	<key>SystemAudioVolume</key>
+	<data>
+	QQ==
+	</data>
+	<key>SystemAudioVolumeDB</key>
+	<data>
+	8A==
+	</data>
 	<key>bluetoothActiveControllerInfo</key>
 	<data>
 	ChgFCwAAAABgFICliWYblA==
@@ -40,7 +48,7 @@
 	</data>
 	<key>efi-boot-device-data</key>
 	<data>
-	AgEMANBBAwoAAAAAAQEGAAIfAxIKAAEA//8AAAQBKgACAAAAKEAGAAAAAABAzlZ0AAAA
+	AgEMANBBAwoAAAAAAQEGAAIfAxIKAAEA//8AAAQBKgACAAAAKEAGAAAAAACwFjU6AAAA
 	AGaf2o+IwYZPsE7Yb61miHQCAn//BAA=
 	</data>
 	<key>fakesmc-key-#KEY-ui32</key>
@@ -127,7 +135,7 @@
 	<string>none</string>
 	<key>specialbootdevice</key>
 	<data>
-	AgEMANBBAwoAAAAAAQEGAAIfAxIKAAEA//8AAAQBKgACAAAAKEAGAAAAAABAzlZ0AAAA
+	AgEMANBBAwoAAAAAAQEGAAIfAxIKAAEA//8AAAQBKgACAAAAKEAGAAAAAACwFjU6AAAA
 	AGaf2o+IwYZPsE7Yb61miHQCAn//BAA=
 	</data>
 </dict>
