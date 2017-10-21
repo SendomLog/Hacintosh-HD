@@ -1,0 +1,132 @@
+9:935  5:449  Found BIOS RSDP at FF000
+9:935  0:000  Printing ACPI tables from RSDP FF000 ...
+9:935  0:000   FF000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+9:935  0:000    (Xsdt: BB397090, Rsdt: BB397028)
+9:935  0:000    BB397090: 'XSDT', 'A M I ', Rev: 1, Len: 156
+9:935  0:000    BB397028: 'RSDT', 'A M I ', Rev: 1, Len: 96
+9:935  0:000    Tables in Xsdt: 15
+9:935  0:000    0. BB3CD528: 'FACP', 'A M I ', Rev: 5, Len: 268
+9:935  0:000        (Dsdt: BB3971C8, Facs: BD5EDF80, XDsdt: BB3971C8, XFacs: 0)
+9:935  0:000        BB3971C8: 'DSDT', 'A M I ', Rev: 2, Len: 222048
+9:938  0:003        BD5EDF80: 'FACS', Ver: 2, Len: 64
+9:938  0:000    1. BB3CD638: 'APIC', 'A M I ', Rev: 3, Len: 312
+9:938  0:000    2. BB3CD770: 'FPDT', 'A M I ', Rev: 1, Len: 68
+9:938  0:000    3. BB3CD7B8: 'FIDT', 'A M I ', Rev: 1, Len: 156
+9:938  0:000    4. BB3CD858: 'MCFG', 'A M I', Rev: 1, Len: 60
+9:938  0:000    5. BB3E3C10: 'ASF!', ' HCG', Rev: 32, Len: 160
+9:938  0:000    6. BB3CD8F0: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+9:938  0:000    7. BB3CDC60: 'UEFI', 'A M I ', Rev: 1, Len: 66
+9:938  0:000    8. BB3CDCA8: 'HPET', 'A M I ', Rev: 1, Len: 56
+9:938  0:000    9. BB3CDCE0: 'MSCT', 'A M I ', Rev: 1, Len: 144
+9:938  0:000    10. BB3CDD70: 'SLIT', 'A M I ', Rev: 1, Len: 45
+9:938  0:000    11. BB3CDDA0: 'SRAT', 'A M I ', Rev: 3, Len: 4440
+9:938  0:000    12. BB3CEEF8: 'WDDT', 'A M I ', Rev: 1, Len: 64
+9:938  0:000    13. BB3CEF38: 'SSDT', 'PmMgt', Rev: 2, Len: 85147
+9:938  0:000    14. BB3E3BD8: 'BGRT', 'A M I ', Rev: 1, Len: 56
+9:938  0:000    Tables in Rsdt: 15
+9:938  0:000    0. BB397140: 'FACP', 'A M I ', Rev: 2, Len: 132
+9:938  0:000        (Dsdt: BB3971C8, Facs: BD5EDF40)
+9:938  0:000        BB3971C8: 'DSDT', 'A M I ', Rev: 2, Len: 222048
+9:942  0:003        BD5EDF40: 'FACS', Ver: 0, Len: 64
+9:942  0:000    1. BB3CD638: 'APIC', 'A M I ', Rev: 3, Len: 312
+9:942  0:000    2. BB3CD770: 'FPDT', 'A M I ', Rev: 1, Len: 68
+9:942  0:000    3. BB3CD7B8: 'FIDT', 'A M I ', Rev: 1, Len: 156
+9:942  0:000    4. BB3CD858: 'MCFG', 'A M I', Rev: 1, Len: 60
+9:942  0:000    5. BB3E3C10: 'ASF!', ' HCG', Rev: 32, Len: 160
+9:942  0:000    6. BB3CD8F0: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+9:942  0:000    7. BB3CDC60: 'UEFI', 'A M I ', Rev: 1, Len: 66
+9:942  0:000    8. BB3CDCA8: 'HPET', 'A M I ', Rev: 1, Len: 56
+9:942  0:000    9. BB3CDCE0: 'MSCT', 'A M I ', Rev: 1, Len: 144
+9:942  0:000    10. BB3CDD70: 'SLIT', 'A M I ', Rev: 1, Len: 45
+9:942  0:000    11. BB3CDDA0: 'SRAT', 'A M I ', Rev: 3, Len: 4440
+9:942  0:000    12. BB3CEEF8: 'WDDT', 'A M I ', Rev: 1, Len: 64
+9:942  0:000    13. BB3CEF38: 'SSDT', 'PmMgt', Rev: 2, Len: 85147
+9:942  0:000    14. BB3E3BD8: 'BGRT', 'A M I ', Rev: 1, Len: 56
+9:942  0:000  Found UEFI Acpi 2.0 RSDP at BB397000
+9:942  0:000  Saving ACPI tables from RSDP BB397000 to EFI\CLOVER\ACPI\origin ...
+9:942  0:000   BB397000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+9:942  0:000    (Xsdt: BB397090, Rsdt: BB397028)
+9:942  0:000    BB397090: 'XSDT', 'A M I ', Rev: 1, Len: 156
+9:942  0:000    BB397028: 'RSDT', 'A M I ', Rev: 1, Len: 96
+9:942  0:000    Tables in Xsdt: 15
+9:942  0:000    0. BB3CD528: 'FACP', 'A M I ', Rev: 5, Len: 268
+9:942  0:000        (Dsdt: BB3971C8, Facs: BD5EDF80, XDsdt: BB3971C8, XFacs: 0)
+9:942  0:000        BB3971C8: 'DSDT', 'A M I ', Rev: 2, Len: 222048
+9:945  0:003        BD5EDF80: 'FACS', Ver: 2, Len: 64
+9:945  0:000    1. BB3CD638: 'APIC', 'A M I ', Rev: 3, Len: 312
+9:945  0:000    2. BB3CD770: 'FPDT', 'A M I ', Rev: 1, Len: 68
+9:945  0:000    3. BB3CD7B8: 'FIDT', 'A M I ', Rev: 1, Len: 156
+9:945  0:000    4. BB3CD858: 'MCFG', 'A M I', Rev: 1, Len: 60
+9:945  0:000    5. BB3E3C10: 'ASF!', ' HCG', Rev: 32, Len: 160
+9:945  0:000    6. BB3CD8F0: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+9:945  0:000    7. BB3CDC60: 'UEFI', 'A M I ', Rev: 1, Len: 66
+9:945  0:000    8. BB3CDCA8: 'HPET', 'A M I ', Rev: 1, Len: 56
+9:945  0:000    9. BB3CDCE0: 'MSCT', 'A M I ', Rev: 1, Len: 144
+9:945  0:000    10. BB3CDD70: 'SLIT', 'A M I ', Rev: 1, Len: 45
+9:945  0:000    11. BB3CDDA0: 'SRAT', 'A M I ', Rev: 3, Len: 4440
+9:945  0:000    12. BB3CEEF8: 'WDDT', 'A M I ', Rev: 1, Len: 64
+9:945  0:000    13. BB3CEF38: 'SSDT', 'PmMgt', Rev: 2, Len: 85147
+9:945  0:000    14. BB3E3BD8: 'BGRT', 'A M I ', Rev: 1, Len: 56
+9:945  0:000    Tables in Rsdt: 15
+9:945  0:000    0. BB397140: 'FACP', 'A M I ', Rev: 2, Len: 132
+9:945  0:000        (Dsdt: BB3971C8, Facs: BD5EDF40)
+9:945  0:000        BB3971C8: 'DSDT', 'A M I ', Rev: 2, Len: 222048
+9:949  0:003        BD5EDF40: 'FACS', Ver: 0, Len: 64
+9:949  0:000    1. BB3CD638: 'APIC', 'A M I ', Rev: 3, Len: 312
+9:949  0:000    2. BB3CD770: 'FPDT', 'A M I ', Rev: 1, Len: 68
+9:949  0:000    3. BB3CD7B8: 'FIDT', 'A M I ', Rev: 1, Len: 156
+9:949  0:000    4. BB3CD858: 'MCFG', 'A M I', Rev: 1, Len: 60
+9:949  0:000    5. BB3E3C10: 'ASF!', ' HCG', Rev: 32, Len: 160
+9:949  0:000    6. BB3CD8F0: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+9:949  0:000    7. BB3CDC60: 'UEFI', 'A M I ', Rev: 1, Len: 66
+9:949  0:000    8. BB3CDCA8: 'HPET', 'A M I ', Rev: 1, Len: 56
+9:949  0:000    9. BB3CDCE0: 'MSCT', 'A M I ', Rev: 1, Len: 144
+9:949  0:000    10. BB3CDD70: 'SLIT', 'A M I ', Rev: 1, Len: 45
+9:949  0:000    11. BB3CDDA0: 'SRAT', 'A M I ', Rev: 3, Len: 4440
+9:949  0:000    12. BB3CEEF8: 'WDDT', 'A M I ', Rev: 1, Len: 64
+9:949  0:000    13. BB3CEF38: 'SSDT', 'PmMgt', Rev: 2, Len: 85147
+9:949  0:000    14. BB3E3BD8: 'BGRT', 'A M I ', Rev: 1, Len: 56
+9:949  0:000  Found UEFI Acpi 1.0 RSDP at BB397000
+9:949  0:000  Printing ACPI tables from RSDP BB397000 ...
+9:949  0:000   BB397000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+9:949  0:000    (Xsdt: BB397090, Rsdt: BB397028)
+9:949  0:000    BB397090: 'XSDT', 'A M I ', Rev: 1, Len: 156
+9:949  0:000    BB397028: 'RSDT', 'A M I ', Rev: 1, Len: 96
+9:949  0:000    Tables in Xsdt: 15
+9:949  0:000    0. BB3CD528: 'FACP', 'A M I ', Rev: 5, Len: 268
+9:949  0:000        (Dsdt: BB3971C8, Facs: BD5EDF80, XDsdt: BB3971C8, XFacs: 0)
+9:949  0:000        BB3971C8: 'DSDT', 'A M I ', Rev: 2, Len: 222048
+9:952  0:003        BD5EDF80: 'FACS', Ver: 2, Len: 64
+9:952  0:000    1. BB3CD638: 'APIC', 'A M I ', Rev: 3, Len: 312
+9:952  0:000    2. BB3CD770: 'FPDT', 'A M I ', Rev: 1, Len: 68
+9:952  0:000    3. BB3CD7B8: 'FIDT', 'A M I ', Rev: 1, Len: 156
+9:952  0:000    4. BB3CD858: 'MCFG', 'A M I', Rev: 1, Len: 60
+9:952  0:000    5. BB3E3C10: 'ASF!', ' HCG', Rev: 32, Len: 160
+9:952  0:000    6. BB3CD8F0: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+9:952  0:000    7. BB3CDC60: 'UEFI', 'A M I ', Rev: 1, Len: 66
+9:952  0:000    8. BB3CDCA8: 'HPET', 'A M I ', Rev: 1, Len: 56
+9:952  0:000    9. BB3CDCE0: 'MSCT', 'A M I ', Rev: 1, Len: 144
+9:952  0:000    10. BB3CDD70: 'SLIT', 'A M I ', Rev: 1, Len: 45
+9:952  0:000    11. BB3CDDA0: 'SRAT', 'A M I ', Rev: 3, Len: 4440
+9:952  0:000    12. BB3CEEF8: 'WDDT', 'A M I ', Rev: 1, Len: 64
+9:952  0:000    13. BB3CEF38: 'SSDT', 'PmMgt', Rev: 2, Len: 85147
+9:952  0:000    14. BB3E3BD8: 'BGRT', 'A M I ', Rev: 1, Len: 56
+9:952  0:000    Tables in Rsdt: 15
+9:952  0:000    0. BB397140: 'FACP', 'A M I ', Rev: 2, Len: 132
+9:952  0:000        (Dsdt: BB3971C8, Facs: BD5EDF40)
+9:952  0:000        BB3971C8: 'DSDT', 'A M I ', Rev: 2, Len: 222048
+9:956  0:003        BD5EDF40: 'FACS', Ver: 0, Len: 64
+9:956  0:000    1. BB3CD638: 'APIC', 'A M I ', Rev: 3, Len: 312
+9:956  0:000    2. BB3CD770: 'FPDT', 'A M I ', Rev: 1, Len: 68
+9:956  0:000    3. BB3CD7B8: 'FIDT', 'A M I ', Rev: 1, Len: 156
+9:956  0:000    4. BB3CD858: 'MCFG', 'A M I', Rev: 1, Len: 60
+9:956  0:000    5. BB3E3C10: 'ASF!', ' HCG', Rev: 32, Len: 160
+9:956  0:000    6. BB3CD8F0: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+9:956  0:000    7. BB3CDC60: 'UEFI', 'A M I ', Rev: 1, Len: 66
+9:956  0:000    8. BB3CDCA8: 'HPET', 'A M I ', Rev: 1, Len: 56
+9:956  0:000    9. BB3CDCE0: 'MSCT', 'A M I ', Rev: 1, Len: 144
+9:956  0:000    10. BB3CDD70: 'SLIT', 'A M I ', Rev: 1, Len: 45
+9:956  0:000    11. BB3CDDA0: 'SRAT', 'A M I ', Rev: 3, Len: 4440
+9:956  0:000    12. BB3CEEF8: 'WDDT', 'A M I ', Rev: 1, Len: 64
+9:956  0:000    13. BB3CEF38: 'SSDT', 'PmMgt', Rev: 2, Len: 85147
+9:956  0:000    14. BB3E3BD8: 'BGRT', 'A M I ', Rev: 1, Len: 56

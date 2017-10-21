@@ -141,7 +141,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-v npci=0x2000</string>
+		<string>-v darkwake=1 npci=0x2000 -alcbeta -lilubeta</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultLoader</key>
@@ -256,7 +256,7 @@
 				<key>Comment</key>
 				<string>xcpm_cpuid_set_info © Pike R. Alpha</string>
 				<key>Disabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>
 				D7bEg8Dpg/hH
@@ -298,7 +298,7 @@
 				<key>Comment</key>
 				<string>xcpm_core_scope_msrs © Pike R. Alpha</string>
 				<key>Disabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>
 				vgIAAAAx0uhs/P//
@@ -326,7 +326,7 @@
 				<key>Comment</key>
 				<string>reboot fix 10.12db8 © Pike R. Alpha</string>
 				<key>Disabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>
 				VUiJ5UFXQVZBVUFUU1BBidZBifdIiftFhf8PhA==
@@ -334,6 +334,48 @@
 				<key>Replace</key>
 				<data>
 				w5CJ5UFXQVZBVUFUU1BBidZBifdIiftFhf8PhA==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>xcpm performance fix 1 (wrsmr fix to get CPU max) © okrasit</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				idjB4Ai5mQE=
+				</data>
+				<key>Replace</key>
+				<data>
+				uAD/AAC5mQE=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>xcpm performance fix 2</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				RInoweAIuZkB
+				</data>
+				<key>Replace</key>
+				<data>
+				kLgA/wAAuZkB
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>xcpm performance fix 3</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				RIn4weAIuZkB
+				</data>
+				<key>Replace</key>
+				<data>
+				kLgA/wAAuZkB
 				</data>
 			</dict>
 		</array>

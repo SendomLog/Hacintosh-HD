@@ -6,6 +6,10 @@
 	<data>
 	cmFuZG9t
 	</data>
+	<key>EFIBluetoothDelay</key>
+	<data>
+	uAs=
+	</data>
 	<key>EFILoginHiDPI</key>
 	<data>
 	AAAAAA==
@@ -16,11 +20,11 @@
 	</data>
 	<key>SystemAudioVolume</key>
 	<data>
-	QQ==
+	QA==
 	</data>
 	<key>SystemAudioVolumeDB</key>
 	<data>
-	8A==
+	7w==
 	</data>
 	<key>bluetoothActiveControllerInfo</key>
 	<data>
